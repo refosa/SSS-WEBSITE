@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Shining Stars</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <h3>Stars Logo</h3>
+    </div>
+    <nav>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Admission</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div id="hamburger" class="hamburger" onclick="toggleNav()">
+            <i class="fa fa-bars"></i> 
+        </div>
+    </nav>
+    <button>Apply Now</button>
+
+    <!-- Side Navigation (Hamburger Menu) -->
+<div id="side-nav" class="side-nav">
+  <div class="side-nav-logo">
+    <h3>Shining Stars Schools</h3>
+  </div>
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()"><i class="fa fa-xmark"></i></a>
+  <a href="#"><i class="fas fa-home"></i> Home</a>
+  <hr>
+  <a href="#"><i class="fas fa-info-circle"></i> About</a>
+  <hr>
+  <a href="#"><i class="fas fa-school"></i> Admission</a>
+  <hr>
+  <a href="#"><i class="fas fa-phone"></i> Contact</a>
+  <hr>
+  <button class="apply-btn">Apply Now</button>
+</div>
+
+
+</header>
+
+<main>
+ 
+  <section id="header-carousel">
+    <!-- Slideshow container  -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text  -->
+      <div class="mySlides fade">
+        <img src="img/img1.jpg" style="width:100%" class="slide-img">
+
+        <div class="text"> SHAPENING WORLDS <span class="small-caption-text"><p>We Shapen Your Children Into Stars <br>of the World</p></span></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="img/class-material.jpg" style="width:100%"class="slide-img">
+        <div class="text">CREATING POSSIBILITIES<span class="small-caption-text"><p>Here at shining stars schools,<br>we make it our goal to open up our students to <br>creative and innovative possibilities</p></span></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="img/school.jpg" style="width:100%; "class="slide-img">
+        <div class="text">CONDUSIVE ENVIRONMENT<span class="small-caption-text"><p>We create a friendly atmosphere for student</p></span></div>
+      </div>  
+    </div>
+
+
+</section>
+
+
+<section class="intro">
+<h2>WELCOME TO SHINING STARS SCHOOLS</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore perspiciatis quis asperiores!
+  <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus repellat 
+  iste vitae. Quidem, maiores,... <a href="#">read more...</a>
+</p>
+ 
+</section>
+
+<!-- Enquiries Section -->
+<section class="enquiries-section">
+  <div class="enquiry-item">
+    <i class="fas fa-phone-alt"></i>
+    <span>Tel: +234 812 345 6789</span>
+  </div>
+  <div class="enquiry-item">
+    <i class="fas fa-clock"></i>
+    <span>Opening Hours: Mon - Fri: 8:00 AM - 5:00 PM</span>
+  </div>
+  <div class="enquiry-item">
+    <i class="fas fa-envelope"></i>
+    <span>Email: info@shiningstarschool.com</span>
+  </div>
+  <div class="social-media">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/2348123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</section>
+
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+
+<!-- Carousel Section in the main body -->
+<section id="school-classes" class="carousel-container">
+  <div class="carousel">
+    <!-- Kindergarten Slide -->
+    <div class="carousel-item">
+      <h1>Shining Stars <br/>Logo</h1>
+      <h3>PRE-SCHOOL</h3>
+      <img src="img/class.jpg" alt="your browser does not support this image" class="classes-img">
+      <p>Make your toddler a second home</p>
+    </div>
+
+    <!-- Primary Slide -->
+    <div class="carousel-item">
+      <h1>Shining Stars <br/>Logo</h1>
+      <h3>PRIMARY SCHOOL</h3>
+      <img src="img/classroom.jpg" alt="your browser does not support this image" class="classes-img" style="max-width:90% ;">
+      <p>We build a solid foundation for your children</p>
+    </div>
+
+    <!-- Secondary Slide -->
+    <div class="carousel-item">
+      <h1>Shining Stars <br/>Logo</h1>
+      <h3>SECONDARY SCHOOL</h3>
+      <img src="img/img3.JPG" alt="your browser does not support this image" class="classes-img">
+      <p>Preparation for the real world is never too early <br>for us over here</p>
+    </div>
+  </div>
+
+  <!-- Carousel Navigation -->
+  <a class="carousel-control prev" onclick="prevSlide()"><i class="fa fa-chevron-left"></i></a>
+  <a class="carousel-control next" onclick="nextSlide()"><i class="fa fa-chevron-right"></i></a>
+</section>
+
+<!-- Why Choose Shining Stars Section -->
+<section id="why-choose" class="why-choose-section">
+  <h2>Why Choose Shining Stars School?</h2>
+  <div class="reasons-container">
+
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="100">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h3>Great Teachers</h3>
+      <p>Our experienced and qualified teachers foster a learning environment that allows every student to excel.</p>
+    </div>
+
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="200">
+      <i class="fas fa-book-open"></i>
+      <h3>Extensive Libraries</h3>
+      <p>We provide access to rich learning resources and materials to enhance research and knowledge.</p>
+    </div>
+
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="300">
+      <i class="fas fa-futbol"></i>
+      <h3>Extra-Curricular Activities</h3>
+      <p>We encourage the development of talents with diverse activities including arts, sports, and drama.</p>
+    </div>
+
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="400">
+      <i class="fas fa-flask"></i>
+      <h3>Modern Laboratories</h3>
+      <p>Our state-of-the-art laboratories give students hands-on experience in science and innovation.</p>
+    </div>
+
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="500">
+      <i class="fas fa-building"></i>
+      <h3>Modern Facilities</h3>
+      <p>We offer modern classrooms and infrastructure designed for a conducive learning experience.</p>
+    </div>
+    
+    <div class="reason-card" data-aos="slide-right" data-aos-delay="600">
+      <i class="fas fa-basketball-ball"></i>
+      <h3>Sports Facilities</h3>
+      <p>Our comprehensive sports facilities help students remain physically active and develop teamwork skills.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Recent Events Section -->
+<section id="recent-events" class="events-section">
+  <h2>Recent Events</h2>
+  <div class="events-container">
+    
+    <!-- Event 1 -->
+    <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="img/img2.jpg" alt="Science Day" class="event-img">
+      <div class="event-info">
+        <h3><i class="fas fa-flask"></i>World Science Day</h3>
+        <p><i class="far fa-calendar-alt"></i> October 1, 2024</p>
+        <p>Our students showcased amazing science projects, including experiments and models, highlighting their innovative talents.</p>
+      </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event-card" data-aos="fade-up" data-aos-delay="400">
+      <img src="img/class-material.jpg" alt="Sports Day" class="event-img">
+      <div class="event-info">
+        <h3><i class="fas fa-futbol"></i> Sports Day</h3>
+        <p><i class="far fa-calendar-alt"></i> September 20, 2024</p>
+        <p>A day full of exciting sports competitions, where students displayed their athleticism and team spirit.</p>
+      </div>
+    </div>
+
+    <!-- Event 3 -->
+    <div class="event-card" data-aos="fade-up" data-aos-delay="600">
+      <img src="img/class.jpg" alt="Cultural Day" class="event-img">
+      <div class="event-info">
+        <h3><i class="fas fa-globe"></i> Cultural Day</h3>
+        <p><i class="far fa-calendar-alt"></i> September 10, 2024</p>
+        <p>Celebrating diversity, students and staff dressed in traditional outfits and participated in cultural performances.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section>
+  <div class="intro" style="background: #f7f9fc;">
+    <h2>What makes shining stars unique</h2>
+    <p>At Shining Stars School, we encourage our pupils/students to develop an enquiring mind with Montessori Method to ensure that every pupil/student, (the rose) right from the pre-nursery becomes confident and independent learner. This shows an overview of the ability of every child in all areas of child development such as cognitive, psychomotor and affective skills.</p>
+  </div>
+</section>
+
+<!-- Student Testimonial Section -->
+<section class="testimonial-section">
+  <h2 data-aos="fade-down">What Our Students Say</h2>
+
+  <div class="testimonial-container">
+    
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="img/student1.jpg" alt="Student 1" class="student-img">
+      <p class="quote"><i class="fas fa-quote-left"></i> Shining Stars has transformed my academic journey. The teachers are so supportive, and the facilities are top-notch! <i class="fas fa-quote-right"></i></p>
+      <h4>- Adesanya Joshua, Class of 2022</h4>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+      <img src="img/student2.jpg" alt="Student 2" class="student-img">
+      <p class="quote"><i class="fas fa-quote-left"></i> I love the extracurricular activities! There’s always something fun to do outside of class, whether it's sports or clubs. <i class="fas fa-quote-right"></i></p>
+      <h4>- Igbinidu Riche, Class of 2023</h4>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+      <img src="img/student3.jpg" alt="Student 3" class="student-img">
+      <p class="quote"><i class="fas fa-quote-left"></i> The school environment is so welcoming, and I’ve made lifelong friends. I’m proud to be part of the Shining Stars family. <i class="fas fa-quote-right"></i></p>
+      <h4>- Okunlade Feranmi, Class of 2024</h4>
+    </div>
+  </div>
+</section>
+
+
+
+<!--ABOUT SEC-->
+<!--  <section class="info">
+ <h1 class="abt-us">ABOUT US</h1>
+ <div>
+ <h2>MEET THE PROPRIETRESS</h2>
+ <img src="img/img3.JPG" class="square-img" alt="shining stars propeitress" >
+   <p class="info-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      eaque accusantium quis provident laudantium nulla sed delectus deleniti tempore alias harum inventore blanditiis saepe, quae eum itaque! Is
+     te, fugit dolor.</p>
+   </div>  
+ </div>
+</section>
+</main>
+-->
+
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+  <div class="footer-container">
+    
+     <!-- Newsletter -->
+     <div class="footer-newsletter">
+       <h3>Subscribe to Our Newsletter</h3>
+       <form>
+         <input type="email" placeholder="Enter your email" required>
+         <button type="submit">Subscribe</button>
+       </form>
+     </div>
+    
+    
+    <!-- Contact Form -->
+    <div class="form-container">
+    <div class="form">
+        <span class="heading">Send us a message</span>
+        <input placeholder="Your Name" type="text" class="input">
+        <input placeholder="Your Email" id="mail" type="email" class="input">
+        <textarea placeholder="Your Message" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+        <div class="button-container">
+        <div class="send-button">Send</div>
+    </div>
+</div>
+</div>
+
+   <!-- Contact Us -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 School Street, akobo, ibadan</li>
+        <li><i class="fas fa-phone"></i> +234 123 456 7890</li>
+        <li><i class="fas fa-envelope"></i> info@shiningstarschool.com</li>
+      </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#"> > Home</a></li>
+        <li><a href="#"> > About Us</a></li>
+        <li><a href="#"> > Admissions</a></li>
+        <li><a href="#"> > Events</a></li>
+        <li><a href="#"> > Contact Us</a></li>
+      </ul>
+    </div>
+
+
+</div>
+    
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p> &copy; 2024 Shining Stars School. All Rights Reserved.</p>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" ></script>
+<script src="script.js" ></script>
+   
+</body>
+</html>
