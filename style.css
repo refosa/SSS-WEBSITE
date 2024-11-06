@@ -26,15 +26,10 @@ header {
   height: 90px;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
 
 .logo img {
-  height: auto;
+  width: 150px;
+ 
 
 }
 
@@ -94,6 +89,11 @@ header button:hover {
 }
 .side-nav {
   display: none;
+}
+
+.side-nav-logo img{
+  width: 180px;
+ 
 }
 
 /* main section */
@@ -373,9 +373,34 @@ color: #084dbb;
 
 
 /* carousel ends */
-.abt-us{
-  font-size: 40px;
-  color: maroon;
+
+/* about us begins*/
+.abt-us h1{
+  font-size: 38px;
+  text-align: center;
+  color: #733939;
+}
+.meet-prop{
+  margin-top: 20px;
+  padding:15px 2px 32px 2px ;
+  background-color: #733939;
+  border-radius: 20px;
+}
+
+.abt-us img{
+  width: 200px;
+  border-radius: 20%;
+  padding-left: 10px;
+}
+
+.met-text{
+  font-size: 30px;
+  color: #f5f5dc;
+}
+
+.her-text{
+  color: #f5f5dc;
+  padding-left: 10px;
 }
 
 
@@ -574,7 +599,7 @@ color: #084dbb;
 
 
 
-.info{
+/*.info{
   padding:15px 8px 32px 2px ;
  }
  .info::after {
@@ -596,7 +621,7 @@ color: #084dbb;
   width: 70%;
   float: right;
   padding-left: 9px;
- }
+ }*/
 
 
 
