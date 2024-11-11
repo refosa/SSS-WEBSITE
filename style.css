@@ -116,7 +116,7 @@ header button:hover {
  .text{
    color:white;
    font-size: 20px;
-   padding-right: 20px;
+   padding-right: 10px;
    position: absolute;
    top: 50%;
    backdrop-filter: blur(3px);
@@ -174,7 +174,6 @@ header button:hover {
 
 .intro p {
   font-size: 18px;
-  margin-bottom: 30px;
   animation: fadeIn 1.2s ease-in-out;
 }
 
@@ -240,6 +239,10 @@ color: #084dbb;
   .social-media {
     margin-top: 10px;
   }
+
+  .intro h2{
+    margin-bottom: -60px;
+  }
 }
 /* Back to Top Button */
 .back-to-top {
@@ -274,11 +277,81 @@ color: #084dbb;
   display: none; /* Hide the button when not needed */
 }
 
+@media (min-width:768px){
+  
+.meet-prop{
+  padding:15px 8px 32px 2px ;
+ }
+ .meet-prop::after {
+  content: "";
+  display: block;
+  clear: both;
+ }
+
+ .meet-prop> div{
+  float: left;
+  padding: 10px;
+ }
+ 
+ .meet-prop img{
+  width: 10%;
+ }
+
+ .her-text{
+  margin: auto;
+  width: 70%;
+  float:inline-end;
+  padding-left: 9px;
+ }
+ 
+
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     width: 40px;
     height: 40px;
     font-size: 1.3em;
+  }
+
+  .classes-img{
+   margin: auto;
+  }
+  .carousel p{
+   margin: auto;
+  }
+  .carousel h3{
+    margin:auto;
+    text-align: center;
+  }
+
+  .reason-card h3,p{
+    text-align: center;
+    line-break: auto;
+    margin: auto;
+  }
+  
+  .event-info p{
+    text-align: center;
+    line-break: auto;
+    margin: auto;
+  }
+  .event-info h3{
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  .small-caption-text{
+    margin: auto;
+    padding: auto;
+  }
+
+  .history img{
+    width: 100%;
+  }
+
+  .logoimg{
+margin: auto;
   }
 }
 
@@ -352,6 +425,7 @@ color: #084dbb;
   color: #666;
 }
 
+
 /* Carousel Controls */
 .carousel-control {
   position: absolute;
@@ -376,7 +450,8 @@ color: #084dbb;
 
 /* about us begins*/
 .abt-us h1{
-  font-size: 38px;
+  font-size: 50px;
+  font-weight: 700;
   text-align: center;
   color: #733939;
 }
@@ -403,7 +478,95 @@ color: #084dbb;
   padding-left: 10px;
 }
 
+.history{
+  margin-top: 10px;
+  padding:15px 2px 32px 2px ;
+  background-color: #f3f3d1;
+  border-radius: 20px;
+}
+.hist-header{
+  color: #34495e;
+  font-size: 30px;
+}
 
+.history img{
+    width: 450px;
+    border-radius: 10%;
+    border: 3px solid #733939; 
+    margin-bottom: 10px;
+}
+
+.main-txt{
+  color: #7f8c8d ;
+}
+/*vision and commitment section*/
+.vis-comis{
+  background-color: #f5f5dc;
+  padding: 60px 20px;
+  color: #733939; 
+  font-family: 'Arial', sans-serif;
+}
+.vis-comis-header{
+  text-align: center;
+  font-size: 40px;
+}
+.commitment{
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.commit{
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.commit i{
+  font-size: 40px;
+  color: #2C3E50;
+}
+
+.commit h3{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.commit p{
+  font-size: 20px;
+}
+/*admision*/
+.admission{
+ 
+  padding: 40px 10px;
+}
+
+.main-admin-header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #733939;
+  color: #fff;
+  height: 100px;
+}
+.main-admin-header h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.main-admin{
+  background-color: #e5edfa;
+  color: #2c3e50;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.main-admin p{
+  padding: 10px;
+}
 /* Why Choose Section */
 .why-choose-section {
   padding: 50px 20px;
@@ -964,8 +1127,24 @@ nav ul li {
     .side-nav .apply-btn:hover {
     background-color: #c0392b;
     }
-  
-    why choose section
+    /*vision and commitment section*/
+    .commitment{
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .commit{
+      width: 100%;
+    }
+
+    .commit h3{
+      font-size: 25px;
+      margin: auto;
+    }
+    .commit i{
+      margin-bottom: 13px;
+    }
+    /*why choose section*/
 
     .reasons-container {
       flex-direction: column;
